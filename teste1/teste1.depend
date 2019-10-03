@@ -1,13 +1,20 @@
 # depslib dependency file v1.0
-1570095106 source:c:\users\publicuser\documents\git\ai\teste1\main.cpp
+1570127635 source:c:\users\publicuser\documents\git\ai\teste1\main.cpp
 	<iostream>
 	<locale.h>
+	<stdlib.h>
+	<math.h>
+	<string>
 
 1570095106 source:c:\users\publicuser\documents\git\ai\teste1\somadedoisinteiros.cpp
 	<iostream>
 	<locale.h>
 
 1570096368 source:c:\users\publicuser\documents\git\ai\teste1\mediadedoisinteiros.cpp
+	<iostream>
+	<locale.h>
+
+1570096729 source:c:\users\publicuser\documents\git\ai\teste1\areadeumtriangulo.cpp
 	<iostream>
 	<locale.h>
 

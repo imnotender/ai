@@ -6,14 +6,14 @@ using namespace std;
 int main()
 {
     //Banana
-    float n1,n2,media;
+    float base,altura,area;
     setlocale (LC_ALL, "portuguese");
-    cout << "Digite o 1º número: ";
-    cin >> n1;
-    cout << "Digite o 2º número: ";
-    cin >> n2;
-    media=(n1+n2)/2;
-    cout << "A média é: "<<media<<"\n";
+    cout << "Digite a base: ";
+    cin >> base;
+    cout << "Digite a altura: ";
+    cin >> altura;
+    area=(base*altura)/2;
+    cout << "A área é: "<<area<<"\n";
 
 
     return 0;
