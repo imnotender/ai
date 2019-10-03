@@ -99,6 +99,7 @@ int resolverexpressaomaluca()
     return 0;
 }
 
+
 void menu()
 {
 
