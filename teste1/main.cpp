@@ -56,6 +56,39 @@ int valordeumproduto()
     return 0;
 }
 
+int maiornumero()
+{
+    float n1,n2;
+    cout << "Digite o 1º número:";
+    cin >> n1;
+    cout << "Digite o 2º número:";
+    cin >> n2;
+    if (n1 > n2)
+    {
+        cout << "O número "<<n1<<"é maior que "<<n2"\n";
+    }
+    if (n1 < n2)
+    {
+        cout << "O número "<<n2<<"é maior que "<<n1"\n";
+    }
+    return 0;
+}
+
+
+/*
+int cenadalaura()
+{
+    int i;
+    cout << "Digite o nº de variáveis:";
+    cin >> i;
+    for (i > 0; i--)
+    {
+        cout << i << "\n";
+    return 0;
+    }
+
+}
+*/
 int calchip()
 {
     //Calcular a hipotenusa de um triângulo retângulo
@@ -122,7 +155,9 @@ void menu()
     cout << "2 - Resolver ((A+B)*C / D) \n";
     cout << "3 - Calcular a hipotenusa de um triângulo retângulo \n";
     cout << "4 - Calcular o valor total de um produto\n";
-    cout << "5 - Sair\n";
+    cout << "5 - Maior número de dois\n";
+    cout << "6 - Cena da Laura\n";
+    cout << "7 - Sair\n";
     cout << "\n";
     cout << "\n";
     cout << "Digita um valor de 0 a 5: ";
@@ -149,6 +184,20 @@ void menu()
         valordeumproduto();
     }
     if (nr == 5)
+    {
+        maiornumero();
+    }
+    if (nr == 6)
+    {
+
+        /*
+        void cenadalaura();
+        cenadalaura();
+
+        */
+        exit(0);
+    }
+    if (nr == 7)
     {
         exit(0);
     }
