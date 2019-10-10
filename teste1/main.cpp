@@ -58,6 +58,7 @@ int valordeumproduto()
 
 int maiornumero()
 {
+
     float n1,n2;
     cout << "Digite o 1º número:";
     cin >> n1;
@@ -65,30 +66,70 @@ int maiornumero()
     cin >> n2;
     if (n1 > n2)
     {
-        cout << "O número "<<n1<<"é maior que "<<n2"\n";
+     cout << "O número "<<n1<<" é maior que "<<n2<<"\n";
+     //cout << "O maior número é: "<<n1<<"\n";
     }
     if (n1 < n2)
     {
-        cout << "O número "<<n2<<"é maior que "<<n1"\n";
+       cout << "O número "<<n2<<"é maior que "<<n1<<"\n";
+        //cout << "Om aior número é: "<<n2<<"\n";
     }
+
+    menu();
     return 0;
 }
 
 
-/*
+
 int cenadalaura()
+
 {
-    int i;
+    /*
+    int i, cdl_0 cdl_1 cdl_2 cdl_3 cdl_4 cdl_5 cdl_6 cdl_7 cdl_8 cdl_9 cdl_10 cdl_11 cdl_12 cdl_13 cdl_14 cdl_15 cdl_16 cdl_17 cdl_18 cdl_19;
     cout << "Digite o nº de variáveis:";
     cin >> i;
-    for (i > 0; i--)
+    for (int si=0; si<i ; i++)
     {
-        cout << i << "\n";
-    return 0;
+        cout << "Define p/ grau "<<si<<": ";
+        cin >>
     }
-
+    */
+    menu();
+    return 0;
 }
-*/
+int medianotas()
+{
+    float somanotas, media;
+    somanotas=0;
+    int nnotas;
+    cout << "Digite o nº de notas a introduzir na média: ";
+    cin >> nnotas;
+    int* x = new int[nnotas];
+    for (int i=0; i < nnotas; i++)
+    {
+        do {
+            cout << "Introduz a média do teste nº " << i+1 << ": ";
+            cin >> x[i];
+            if (x[i] > 20 || x[i] < 0)
+            {
+                cout << "[ERRO] A nota tem que ser um valor entre 0 e 20.\n";
+            }
+        }
+        while (x[i] > 20 || x[i] < 0);
+    }
+    for (int i=0; i < nnotas; i++)
+    {
+    //    cout << x[i];
+        somanotas = somanotas + x[i];
+    }
+ //   cout << "Nº de notas a introduzir na média: "<<nnotas<<"\n";
+    media = (somanotas / nnotas);
+ //   cout << "Cálculo da média: " << somanotas << " / " << nnotas<< " \n";
+    cout << "A média dos "<< nnotas<< " testes é: " << media<<"\n";
+    menu();
+    return 0;
+}
+
 int calchip()
 {
     //Calcular a hipotenusa de um triângulo retângulo
@@ -157,10 +198,12 @@ void menu()
     cout << "4 - Calcular o valor total de um produto\n";
     cout << "5 - Maior número de dois\n";
     cout << "6 - Cena da Laura\n";
-    cout << "7 - Sair\n";
+    cout << "7 - Média de n notas\n";
+    cout << "8 - Sair\n";
+
     cout << "\n";
     cout << "\n";
-    cout << "Digita um valor de 0 a 5: ";
+    cout << "Digita um valor de 0 a 8: ";
     cin >> nr;
     cout << "\n\n\n";
     if (nr == 0)
@@ -195,9 +238,14 @@ void menu()
         cenadalaura();
 
         */
-        exit(0);
+        cout << "WIP";
+        menu();
     }
     if (nr == 7)
+    {
+        medianotas();
+    }
+    if (nr == 8)
     {
         exit(0);
     }
