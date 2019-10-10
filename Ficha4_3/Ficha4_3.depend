@@ -1,8 +1,7 @@
 # depslib dependency file v1.0
-1570700648 source:c:\users\publicuser\documents\git\ai\teste1\main.cpp
+1570733231 source:c:\users\publicuser\documents\git\ai\ficha4_3\main.cpp
 	<iostream>
 	<locale.h>
 	<stdlib.h>
-	<math.h>
 	<string>
 
