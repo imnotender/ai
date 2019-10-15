@@ -14,9 +14,7 @@ int main()
     //Obter e validar nota
     do
     {
-        /*
-        Perguntar à stora porque é que este programa aceita floats para nota( ex: aceita 2.3 como fraco)
-        */
+
         bad = false;
         cout << "Insira a nota do aluno (Ensino Básico, entre 1 e 5): ";
         cin >> nota;
