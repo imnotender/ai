@@ -9,16 +9,16 @@ int main()
 {
     //Definir variáveis a usar e locale
     setlocale (LC_ALL, "portuguese");
-    int nota;
+    float nota;
     bool bad;
-    //Obter e validar nota
+    //Obter,processar e validar nota
     do
     {
 
         bad = false;
         cout << "Insira a nota do aluno (Ensino Básico, entre 1 e 5): ";
         cin >> nota;
-        if (!cin.good() || nota < 1 || nota > 5)
+        if (!cin.good() || nota < 1 || nota > 5 || nota != int(nota))
         {
             cin.clear();
             cin.ignore(99999, '\n');
