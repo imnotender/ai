@@ -17,7 +17,7 @@ int main()
         bad = false;
         cout << "Insira a nota do aluno: ";
         cin >> nota;
-        if (nota<0 || nota>20 || !cin.good())
+        if (nota<0 || nota > 20 || !cin.good())
         {
             bad = true;
             cout << "[ERRO] O valor inserido não é uma nota válida.\n";
