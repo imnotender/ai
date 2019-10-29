@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <stdlib.h>
 #include <string>
-#include <cstdlib>
+
 using namespace std;
 
 bool loop;
@@ -26,18 +26,19 @@ int main()
         while(loop);
 
         rslt = nr;
-        for (int i = nr; i=1; i--)
+        for (int i = nr; i>=1; i--)
         {
             if (rslt != i)
                 {
                     rslt = rslt * i;
-                    cout << "* " << i;
+                    cout << " * " << i;
                 }
             else
             {
-                cout << nr << "! = " << i << " * ";
+                cout << nr << "! = " << i;
             }
         }
+        cout << " <=>" << endl << "<=> " << nr << "! = " << rslt << endl;
 
 
     return 0;
