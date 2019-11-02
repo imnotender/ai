@@ -11,9 +11,10 @@ int main()
     setlocale (LC_ALL, "portuguese");
     float nota[5];
     string nome[5];
+    int nr = 0;
     bool bad;
     //Obter e processar nota de cada um dos alunos
-    for (int i=0; i<=4; i++)
+    for (int i=0; i<5; i++)
     {
         //cout << "Valor de i:" << i << endl;
         cout << "Insira o nome do aluno nº "<<i+1<<": ";
@@ -37,7 +38,7 @@ int main()
 
         //Apresentar resultados
         cout << "\n\n-------------------------\n";
-        for (int i=0; i<=4; i++)
+        for (int i=0; i<5; i++)
         {
            // cout << "Valor de n:" << n << endl;
             cout << "Aluno nº " << i+1 << ":" << endl;
@@ -47,6 +48,7 @@ int main()
             if (nota[i] >= 9.5)
             {
                 cout << "   - Resultado da nota: Positivo" << endl;
+                nr++;
             }
             //if (nota[i] < 7.5)
             else
@@ -55,5 +57,6 @@ int main()
             }
 
         }
+        cout << endl << "Nº de notas positivas: " << nr;
     return 0;
 }
