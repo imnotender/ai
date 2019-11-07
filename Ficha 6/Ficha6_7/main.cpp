@@ -26,7 +26,13 @@ int main()
         while(loop);
 
         rslt = nr;
-        for (int i = nr; i>=1; i--)
+        if (nr == 0)
+        {
+            cout << "0! = 1";
+        }
+        else
+        {
+            for (int i = nr; i>=1; i--)
         {
             if (rslt != i)
                 {
@@ -39,6 +45,7 @@ int main()
             }
         }
         cout << " <=>" << endl << "<=> " << nr << "! = " << rslt << endl;
+        }
 
 
     return 0;
