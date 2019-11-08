@@ -6,7 +6,7 @@
 using namespace std;
 
 bool bad=false, loop=true;
-float getnr(string askmsg, string errormsg)
+double getnr(string askmsg, string errormsg)
 {
     float nr;
     do
@@ -34,7 +34,8 @@ int main()
     setlocale (LC_ALL, "portuguese");
     // Genero true para masculino, false para feminino
     string genero, gostar, resposta;
-    int idade, homens = 0, mulheres = 0, ultimapergunta=0;
+    int idade, homens = 0, mulheres = 0, ultimapergunta;
+    float percentagem;
 
     do
     {
@@ -130,9 +131,10 @@ int main()
         system("cls");
         cout << "\nNúmero de homens entrevistados: " << homens << endl;
         cout << "Número de mulheres entrevistadas: " << mulheres << endl;
-        double percentagem = ((mulheres / (mulheres + homens))) * 100;
+       // double percentagem = ((mulheres / (mulheres + homens))) * 100;
+        float percentagem = mulheres / homens;
         cout << "Percentagem de mulheres entre os entrevistados: " << percentagem << endl;
-        cout << "Homens com menos de 23 anos que não gostam do curso que estão a frequentar: " << ultimapergunta << "%" << endl;
+        cout << "Homens com menos de 23 anos que não gostam do curso que estão a frequentar: " << ultimapergunta << endl;
         cout << "\n\n\n\n";
 
     return 0;

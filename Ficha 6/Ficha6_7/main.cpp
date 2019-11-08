@@ -20,7 +20,7 @@ int main()
             loop = true;
             cin.clear();
             cin.ignore(99999, '\n');
-            cout << "[ERRO] Opção inválida.\n";
+            cout << "[ERRO] O valor inserido é inválido.\n";
         }
         }
         while(loop);

@@ -2,7 +2,6 @@
 #include <locale.h>
 #include <stdlib.h>
 #include <string>
-#include <cstdlib>
 using namespace std;
 
 bool loop;

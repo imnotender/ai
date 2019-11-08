@@ -33,8 +33,8 @@ int main()
 {
     setlocale (LC_ALL, "portuguese");
     float price, qnt, rslt;
-    price = getnr("Insira o preço do KWh: ", "[ERRO] Preço inválido.");
-    qnt = getnr("Insira a quantidade de KWhs consumidos no mês: ", "[ERRO] Quantidade inválida.");
+    price = getnr("Insira o preço do KWh: ", "[ERRO] Preço inválido.\n");
+    qnt = getnr("Insira a quantidade de KWhs consumidos no mês: ", "[ERRO] Quantidade inválida.\n");
     cout << endl << "--------------------------";
     cout << endl << "Preço do KWh: " << price << " EUR" << endl;
     cout << endl << "KWhs consumidos no mês: " << price << endl;

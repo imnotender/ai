@@ -48,9 +48,6 @@ int main()
         cout << ">> ";
         cin >> opt;
 
-    /*
-    Converter string para int
-    */
 
     switch (opt)
     {
@@ -61,7 +58,7 @@ int main()
             break;
 
 
-   /* Não funciona mas n é necessário porque o prgorama
+   /* Não funciona mas não é necessário porque o programa sai na mesma
     case "s":
         exit(0);
         break;
@@ -87,7 +84,7 @@ int main()
     case '/':
         cout << "Operação escolhida: dividir" << endl << endl;
         nr1 = getnr(0, 4);
-        nr2 = getnr(1, 4);
+        nr2 = getnr(1, 3);
 
         cout << "Operação: " << nr1 << " / " << nr2 << " = " << nr1 / nr2 << endl;
         break;
