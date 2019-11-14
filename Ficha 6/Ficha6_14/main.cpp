@@ -34,8 +34,7 @@ int main()
     setlocale (LC_ALL, "portuguese");
     // Genero true para masculino, false para feminino
     string genero, gostar, resposta;
-    int idade, homens = 0, mulheres = 0, ultimapergunta;
-    float percentagem;
+    double idade, homens = 0, mulheres = 0, ultimapergunta = 0;
 
     do
     {
@@ -75,6 +74,8 @@ int main()
             if (!cin.good())
             {
                 bad=true;
+                cin.clear();
+                cin.ignore(99999, '\n');
                 cout << "[ERRO] A resposta inserida é inválida.\n";
             }
             else if (gostar == "s")
@@ -107,6 +108,8 @@ int main()
             if (!cin.good())
             {
                 bad = true;
+                cin.clear();
+                cin.ignore(99999, '\n');
                 cout << "[ERRO] Resposta inválida.\n";
             }
             else if (resposta=="s")
@@ -132,8 +135,10 @@ int main()
         cout << "\nNúmero de homens entrevistados: " << homens << endl;
         cout << "Número de mulheres entrevistadas: " << mulheres << endl;
        // double percentagem = ((mulheres / (mulheres + homens))) * 100;
-        float percentagem = mulheres / homens;
-        cout << "Percentagem de mulheres entre os entrevistados: " << percentagem << endl;
+        double percentagem = (mulheres / (mulheres + homens));
+        cout << "Cálculo da percentagem: Percentagem = mulheres / (mulheres+homens) <=>\n";
+        cout << "<=> Percentagem = " << mulheres << " / (" << mulheres << " + " << homens << ")" <<  endl;
+        cout << "Percentagem de mulheres entre os entrevistados: " << percentagem << "%" << endl;
         cout << "Homens com menos de 23 anos que não gostam do curso que estão a frequentar: " << ultimapergunta << endl;
         cout << "\n\n\n\n";
 
