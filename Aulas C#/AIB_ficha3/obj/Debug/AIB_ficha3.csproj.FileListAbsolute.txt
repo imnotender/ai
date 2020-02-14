@@ -1,0 +1,10 @@
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.csprojAssemblyReference.cache
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.frm_menu.resources
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.Properties.Resources.resources
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.csproj.GenerateResource.cache
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\bin\Debug\AIB_ficha3.exe.config
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\bin\Debug\AIB_ficha3.exe
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\bin\Debug\AIB_ficha3.pdb
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.exe
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.pdb
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\AIB_ficha3\obj\Debug\AIB_ficha3.frm_exercicio1.resources

@@ -1,0 +1,9 @@
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\bin\Debug\Ficha2_Ex2.exe.config
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\bin\Debug\Ficha2_Ex2.exe
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\bin\Debug\Ficha2_Ex2.pdb
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.csprojAssemblyReference.cache
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.frm_idades2.resources
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.Properties.Resources.resources
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.csproj.GenerateResource.cache
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.exe
+C:\Users\PublicUser\Documents\git\ai\Aulas C#\Ficha2_Ex2\obj\Debug\Ficha2_Ex2.pdb
