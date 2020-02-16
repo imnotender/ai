@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1573723736 source:c:\users\publicuser\documents\git\ai\ficha 6\ficha6_14\main.cpp
+	<iostream>
+	<locale.h>
+	<stdlib.h>
+	<string>
+	<cstdlib>
+

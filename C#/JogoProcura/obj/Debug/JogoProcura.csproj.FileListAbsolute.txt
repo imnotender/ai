@@ -1,0 +1,28 @@
+C:\Users\PublicUser\source\repos\JogoProcura\bin\Debug\JogoProcura.exe.config
+C:\Users\PublicUser\source\repos\JogoProcura\bin\Debug\JogoProcura.exe
+C:\Users\PublicUser\source\repos\JogoProcura\bin\Debug\JogoProcura.pdb
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.csprojAssemblyReference.cache
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.Properties.Resources.resources
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.csproj.GenerateResource.cache
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.exe
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.pdb
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.frm_login.resources
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.frm_opcoes.resources
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.frm_jogo_facil.resources
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\JogoProcura.frm_opcoes.aa-DJ.resources
+C:\Users\PublicUser\source\repos\JogoProcura\bin\Debug\aa-DJ\JogoProcura.resources.dll
+C:\Users\PublicUser\source\repos\JogoProcura\obj\Debug\aa-DJ\JogoProcura.resources.dll
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\bin\Debug\JogoProcura.exe.config
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\bin\Debug\JogoProcura.exe
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\bin\Debug\JogoProcura.pdb
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\bin\Debug\aa-DJ\JogoProcura.resources.dll
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.csprojAssemblyReference.cache
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.frm_opcoes.resources
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.frm_jogo_facil.resources
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.frm_login.resources
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.Properties.Resources.resources
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.frm_opcoes.aa-DJ.resources
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.csproj.GenerateResource.cache
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\aa-DJ\JogoProcura.resources.dll
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.exe
+C:\Users\rafae\Documents\git\ai\Aulas C#\JogoProcura\obj\Debug\JogoProcura.pdb
